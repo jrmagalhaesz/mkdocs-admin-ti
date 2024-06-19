@@ -1,0 +1,6 @@
+# Conclusão 
+Com isso, percebemos que a combinação do GLPI e do MkDocs proporcionou uma solução poderosa para a gestão de serviços de TI e a documentação de projetos. O GLPI se destacou por suas robustas funcionalidades de gerenciamento de ativos e tickets, simplificando o suporte e a manutenção da infraestrutura de TI. Sua interface intuitiva e amplas opções de personalização facilitaram a adaptação às necessidades específicas da organização.
+
+Por outro lado, o MkDocs demonstrou ser uma ferramenta eficiente para a criação de documentação estática, oferecendo uma interface amigável e suporte completo a Markdown. A facilidade de configuração, aliada à capacidade de personalização através de temas e plugins, possibilitou a criação de documentação clara, organizada e esteticamente agradável.
+
+A integração dessas duas ferramentas resultou em um ambiente de trabalho mais organizado e produtivo. Enquanto o GLPI assegurava um controle rigoroso e eficiente das operações de TI, o MkDocs garantia que toda a documentação fosse acessível, bem estruturada e facilmente atualizável. No geral, a experiência combinada com GLPI e MkDocs melhorou significativamente a gestão de TI e a qualidade da documentação, beneficiando tanto os administradores quanto os usuários finais.

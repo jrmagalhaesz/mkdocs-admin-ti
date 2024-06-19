@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>GLPI - Documentação (Sistema 03)</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "GLPI";
+        var mkdocs_page_input_path = "glpi.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação (Sistema 03)
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">Sobre</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Introdução</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">GLPI</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#instalacao-do-glpi">Instalação do GLPI</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#algumas-formas-de-instalar">Algumas formas de instalar</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#processo-de-instalacao-e-configuracao">Processo de instalação e configuração</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#primeiro-passo">Primeiro Passo</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#segundo-passo">Segundo Passo</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#terceiro-passo">Terceiro Passo</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#primeiro-passo-glpi">Primeiro Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#segundo-passo-glpi">Segundo Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#terceiro-passo-glpi">Terceiro Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quarto-passo-glpi">Quarto Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#quinto-passo-glpi">Quinto Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sexto-passo-glpi">Sexto Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#setimo-passo-glpi">Sétimo Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#oitavo-passo-glpi">Oitavo Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#nono-passo-glpi">Nono Passo GLPI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#decimo-passo-glpi">Décimo Passo GLPI</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quarto-passo">Quarto Passo</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../mkdocs/">MkDocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../conclusao/">Conclusão</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação (Sistema 03)</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">GLPI</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="introducao-ao-glpi">Introdução ao GLPI</h1>
+<h2 id="instalacao-do-glpi">Instalação do GLPI</h2>
+<p>Como já vimos, o <strong>GLPI</strong> é um sistema de gerenciamento de TI. Nele você pode adicionar ativos, chamados, criação de usuários, etc. Há mais funcionalidades nele porém vamos para o processo de como podemos instalar o GLPI. Diante mão já venho dizer que há três maneiras básicas de instalar o <strong>GLPI</strong>, são elas: <br> </p>
+<h3 id="algumas-formas-de-instalar">Algumas formas de instalar</h3>
+<ul>
+<li><a href="https://www.apachefriends.org/pt_br/index.html">XAMPP</a>: O XAMPP é uma distribuição do Apache fácil de instalar contendo PHP, MySQL e Perl. </li>
+<li><a href="https://learn.microsoft.com/pt-br/windows/wsl/">WSL</a>: Subsistema Windows para Linux.</li>
+<li><a href="https://www.virtualbox.org/">VitualBox</a>: Uma VM é uma representação virtual de um computador físico.</li>
+</ul>
+<h2 id="processo-de-instalacao-e-configuracao">Processo de instalação e configuração</h2>
+<h3 id="primeiro-passo">Primeiro Passo</h3>
+<p>Eu utilizei o <strong>XAMPP</strong> para usar o GLPI, pois eu queria ver como ele iria conseguir executar o GLPI. <strong>Primeiro passo</strong> é instalar o <a href="https://www.apachefriends.org/pt_br/download.html">XAMPP</a>. Quando você entrar no site haverá três opções, no meu caso eu usei a versão do windows:</p>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Soma de verificação</th>
+<th>tamanho</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8.0.30 / PHP 8.0.30</td>
+<td>md5 sha1</td>
+<td>144mb</td>
+</tr>
+</tbody>
+</table>
+<p>Como o XAMPP instalado agora você tem que baixar uma pasta do <a href="https://glpi-project.org/pt-br/baixar/">GLPI</a> <strong>A versão mais recente estável</strong>, que é a  GLPI 10.0.15. Agora temos tudo que precisamos para utilizar o GLPI.</p>
+<h3 id="segundo-passo">Segundo Passo</h3>
+<p>Na <strong>segunda parte</strong> agora você vai ter que pegar a pasta GLPI que você baixou e extrair ela. Após extrair a pasta, você vai recotar ela e ir para a pasta do <strong>XAMPP</strong>.</p>
+<p>Localize a pasta htdocs, bote a pasta que você recortou dentro dela, e agora o <strong>XAMPP</strong> vai conseguir usar as funcionalidades do GLPI. </p>
+<h3 id="terceiro-passo">Terceiro Passo</h3>
+<p>Agora temos tudo que precisamos para utilizar o <strong>GLPI</strong>. Primeiro clique em start tanto no <strong>Apache</strong> como no <strong>mySQL</strong>, após isso você pode ir no seu navegador principal e bote a <code>URL: http://localhost/glpi</code>, quando você botar isso você será direcionando para a aba principal do <strong>GLPI</strong>.</p>
+<h4 id="primeiro-passo-glpi">Primeiro Passo GLPI</h4>
+<p>No <strong>Primeiro passo</strong> ele vai pedir que tipo de linguagem você quer definir como padrão para o seu sistema. No meu caso eu utlizei a linguagem portuguesa mesmo.</p>
+<h4 id="segundo-passo-glpi">Segundo Passo GLPI</h4>
+<p>No <strong>Segundo passo</strong> haverá um nota de licença do  <strong>GLPI</strong>, só aperte o botão <strong>Continuar</strong> e você irá para o terceiro passo.</p>
+<h4 id="terceiro-passo-glpi">Terceiro Passo GLPI</h4>
+<p>No <strong>Terceiro passo</strong> você terá duas opções <strong>Instalar</strong> e <strong>Atualizar</strong>, se você fez tudo que eu lhe falei até o momento, aperte no botão de instalar.</p>
+<h4 id="quarto-passo-glpi">Quarto Passo GLPI</h4>
+<p>Após isso você perceberá que vai haver várias coisas faltando no seu setup, porém você só precisará alterar duas para que o seu sistema esteja pronto. Veja abaixo :arrow_down:</p>
+<p><img alt="GLPI problema" src="../img/glpi-problema.png" />
+<a href="https://www.youtube.com/watch?v=7-CqrK9pxz4&amp;t=9s">Referência da imagem</a></p>
+<p>Veja que o <strong>gd</strong> e o <strong>intl</strong> não estão no seu sistema. Neste caso você terá que adicionar eles. Vá no <strong>Module Apache</strong>, como fizemos na outra vez e de novo entre no <strong>config</strong> do <strong>php.ini</strong>. Localize o <strong>gd</strong> e o <strong>intl</strong> dentro do arquivo, pois possivelmente eles estarão comentado. Descomente eles e salva o arquivo no bloco de notas. Atualize o navegador e agora você pode ir para a próxima etapa, somente clicando em <strong>Continuar</strong>.</p>
+<h4 id="quinto-passo-glpi">Quinto Passo GLPI</h4>
+<p>Agora você irar criar uma conexão com  o banco de dados para armazenar seus arquivos.</p>
+<table>
+<thead>
+<tr>
+<th>Enderço do servidor</th>
+<th>Usuário SQL</th>
+<th>Senha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>localhost</td>
+<td>root</td>
+<td>não precisa</td>
+</tr>
+</tbody>
+</table>
+<p>Feito isto, clique em <strong>Continuar</strong></p>
+<h4 id="sexto-passo-glpi">Sexto Passo GLPI</h4>
+<p>Agora ele vai pedir para você criar um banco de dados. Você pode botar qualquer nome para o seu banco, no meu caso eu botei <em>glpi</em>, após isso, aperte em <strong>Continuar</strong>.</p>
+<h4 id="setimo-passo-glpi">Sétimo Passo GLPI</h4>
+<p>Ele vai perguntar se pode fazer agora a criação do banco de dados,  aperte em <strong>Continuar</strong>.</p>
+<h4 id="oitavo-passo-glpi">Oitavo Passo GLPI</h4>
+<p>Ele vai pedir a coleta de dados, aperte em <strong>Continuar</strong>.</p>
+<h4 id="nono-passo-glpi">Nono Passo GLPI</h4>
+<p>Finalmente ele vai perguntar se você deseja utilizar o <strong>GLPI</strong> :relieved:. Aperte em <strong>Usar o GLPI</strong>.</p>
+<h4 id="decimo-passo-glpi">Décimo Passo  GLPI</h4>
+<p>Agora é só entrar no sistema e configurar de acordo com o que você deseja.</p>
+<table>
+<thead>
+<tr>
+<th>Nome do utilizador</th>
+<th>Palavra passe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>glpi</td>
+<td>glpi</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Utilize o que está acima para entrar como administrador no seu sistema GLPI</strong>.</p>
+<h3 id="quarto-passo">Quarto Passo</h3>
+<p>Se você chegou até aqui, você finalmente vai pode utilizar o seu sistema glpi e fazer chamados, veja como ficou o meu abaixo:</p>
+<p><img alt="GLPI - 1" src="../img/glpi2.png" /></p>
+<p>Caso você ainda tenha problemas, <a href="https://www.youtube.com/watch?v=7-CqrK9pxz4&amp;t=9s">CLIQUE AQUI</a> para mais informações sobre esse mesmo processo</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../intro/" class="btn btn-neutral float-left" title="Introdução"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../mkdocs/" class="btn btn-neutral float-right" title="MkDocs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../intro/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../mkdocs/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+site_name: Documentação (Sistema 03)
+
+theme:
+  name: readthedocs
+  language: pt-BR
+
+nav:
+  - Home: index.md
+  - Sobre: about.md
+  - Introdução: intro.md
+  - GLPI: glpi.md
+  - MkDocs: mkdocs.md
+  - Conclusão: conclusao.md
+
